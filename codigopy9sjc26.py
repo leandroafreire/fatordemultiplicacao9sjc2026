@@ -26,7 +26,7 @@ def carregar_dados():
 df = carregar_dados()
 
 st.title("🧬 Consulta de Notas - Bio (3ºTri)")
-st.write("Digite seu RA para visualizar 'sua nota de participação'. **Atenção: digite o RA sem o zero no início do número.**")
+st.write("Digite seu RA para visualizar sua ''nota de participação''. **Atenção: digite o RA sem o zero no início do número.**")
 
 # Entrada do RA como senha
 ra_aluno = st.text_input("Digite o seu RA:", type="password")
