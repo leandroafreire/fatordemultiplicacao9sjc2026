@@ -7,7 +7,7 @@ st.set_page_config(page_title="Consulta de Notas - Biologia", page_icon="🧬")
 @st.cache_data
 def carregar_dados():
     # Atualizado para o nome do arquivo do 3º Trimestre
-    df = pd.read_excel("Atividades e participação_FatorMultiplicação - 3ºTri.xlsx", sheet_name=0, header=2)
+    df = pd.read_excel("Atividades e participação_FatorMultiplicação1 - 3ºTri.xlsx", sheet_name=0, header=2)
     
     # Limpa espaços em branco dos nomes das colunas
     df.columns = [str(c).strip() for c in df.columns]
